@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="biapy.fields.shorttitle">
+    
+    <include package="plone.app.contentmenu" />
+
+    <browser:page
+         name="shorttitle-controlpanel"
+         for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+         class="..shorttitleprefs.ShortTitlePrefsForm"
+         layer="..interfaces.IShortTitleSpecific"
+         permission="cmf.ManagePortal"
+    />
+
+</configure>
