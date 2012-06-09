@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="biapy.fields.shorttitle" 
+           interface="biapy.fields.shorttitle.interfaces.IShortTitleSpecific" />
+</layers>
