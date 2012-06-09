@@ -1,0 +1,14 @@
+README.txt
+setup.py
+biapy/__init__.py
+biapy.various.linguatranslate.egg-info/PKG-INFO
+biapy.various.linguatranslate.egg-info/SOURCES.txt
+biapy.various.linguatranslate.egg-info/dependency_links.txt
+biapy.various.linguatranslate.egg-info/entry_points.txt
+biapy.various.linguatranslate.egg-info/namespace_packages.txt
+biapy.various.linguatranslate.egg-info/not-zip-safe
+biapy.various.linguatranslate.egg-info/requires.txt
+biapy.various.linguatranslate.egg-info/top_level.txt
+biapy/various/__init__.py
+biapy/various/linguatranslate/__init__.py
+biapy/various/linguatranslate/tests.py

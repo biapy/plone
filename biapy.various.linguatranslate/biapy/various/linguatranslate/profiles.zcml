@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="biapy.various.linguatranslate">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="LinguaTranslate"
+      directory="profiles/default"
+      description='Translate template for LinguaPlone based on LinguaFace ergonomy.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
+
+</configure>
