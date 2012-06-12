@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <!-- Portlet type registrations -->
+
+ <portlet
+   addview="biapy.portlets.sociallinks.SocialLinksPortlet"
+   title="Social links Portlet"
+   description="Configurable portlet to show links to social networks with icons."
+   />
+
+</portlets>

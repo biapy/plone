@@ -1,0 +1,4 @@
+<layers>
+    <layer name="biapy.portlets.sociallinks" 
+           interface="biapy.portlets.sociallinks.interfaces.ISocialLinksLayer" />
+</layers>

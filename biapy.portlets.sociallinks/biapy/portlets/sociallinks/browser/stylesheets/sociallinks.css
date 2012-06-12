@@ -1,0 +1,51 @@
+/** Follow me portlet. **/
+.sociallinks a {
+  background-color: transparent;
+  background-image: url("++resource++biapy.portlets.sociallinks.images/bg-sociallinks-sprite.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  display: block;
+  font-weight: bold;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 30px;
+  border-bottom: 0.1em dotted #dddddd;
+}
+
+#content .sociallinks a,
+dl.portlet .sociallinks a {
+  border-bottom: 0.1em dotted #dddddd;
+}
+
+.sociallinks .sociallinks-rss {
+  background-position: 0 5px;
+  color: #ED6A00 !important;
+}
+.sociallinks .sociallinks-rss:hover {
+  color: #ED6A00 !important;
+}
+.sociallinks .sociallinks-email {
+  background-position: 0 -25px;
+}
+.sociallinks .sociallinks-email:hover {
+  color: #000000 !important;
+}
+.sociallinks .sociallinks-twitter {
+  background-position: 0 -55px;
+}
+.sociallinks .sociallinks-twitter:hover {
+  color: #32A2D2 !important;
+}
+.sociallinks .sociallinks-facebook {
+  background-position: 0 -85px;
+}
+.sociallinks .sociallinks-facebook:hover {
+  color: #476AA7 !important;
+}
+.sociallinks .sociallinks-buzz {
+  background-position: 0 -115px;
+}
+.sociallinks .sociallinks-buzz:hover {
+  color: #007A2F !important;
+}
+

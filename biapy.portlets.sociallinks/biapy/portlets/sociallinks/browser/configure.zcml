@@ -1,0 +1,39 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="biapy.biapyhelpdesk">
+
+  <!-- Zope 3 browser resources -->
+
+  <browser:resourceDirectory
+      name="biapy.portlets.sociallinks.images"
+      directory="images"
+      layer="biapy.portlets.sociallinks.interfaces.ISocialLinksLayer"
+      />
+
+  <browser:resourceDirectory
+      name="biapy.portlets.sociallinks.stylesheets"
+      directory="stylesheets"
+      layer="biapy.portlets.sociallinks.interfaces.ISocialLinksLayer"
+      />
+
+   <!-- Register the portlet -->
+
+   <!-- If the portlet has no configurable parameters, you can remove
+        the EditForm declaration in sociallinksportlet.py and delete
+        the 'editview' attribute from this statement.
+     -->
+
+   <!--plone:portlet
+       name="biapy.portlets.sociallinks.SocialLinksPortlet"
+       interface=".sociallinksportlet.ISocialLinksPortlet"
+       assignment=".sociallinksportlet.Assignment"
+       layer="biapy.portlets.sociallinks.interfaces.ISocialLinksLayer"
+       view_permission="zope2.View"
+       edit_permission="cmf.ManagePortal"
+       renderer=".sociallinksportlet.Renderer"
+       addview=".sociallinksportlet.AddForm"
+       editview=".sociallinksportlet.EditForm"
+       /-->
+
+</configure>

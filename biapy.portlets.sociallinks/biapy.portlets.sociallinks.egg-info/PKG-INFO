@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: biapy.portlets.sociallinks
+Version: 1.0
+Summary: Configurable portlet to show links to social networks with icons.
+Home-page: http://svn.plone.org/svn/collective/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: GPL
+Description: Introduction
+        ============
+        
+        Configurable portlet to show links to social networks with icons.
+        
+        
+        Changelog
+        =========
+        
+        1.0dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
